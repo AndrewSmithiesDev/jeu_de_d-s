@@ -1,0 +1,24 @@
+#winner {
+  animation: flash 1s linear infinite;
+  color: #283618;
+  font-size: 32px;
+}
+
+button {
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 4px 8px;
+  cursor: pointer;
+  background-color: #fdf0d5;
+}
+
+button:hover {
+    background-color: #283618;
+    color: #fdf0d5;
+}
+
+@keyframes flash {
+  50% {
+    opacity: 0;
+  }
+}

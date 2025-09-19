@@ -1,0 +1,86 @@
+main {
+    background-color: #fdf0d5;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #283618;
+    #cartes {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .de {
+            background-color: #fdf0d5;
+            padding: 14px 24px;
+            border-radius: 30px;
+            font-size: 32px;
+        }
+    }
+    .carte-joueur {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        border-radius: 10px;
+        button:active {
+            transform: scale(0.9);
+        }
+    }
+    .resultat {
+        height: 180px;
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        h3 {
+            color: #fdf0d5;
+        }
+    }
+    #joueur1 {
+        color: #c1121f;
+        border: 1px solid #c1121f;
+        button {
+            margin: 8px 0;
+            background-color: #fdf0d5;
+            border: 2px solid #c1121f;
+            border-radius: 10px;
+            color: #c1121f;
+            font-weight: bold;
+            padding: 4px 8px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+        }
+        button:hover {
+            background-color: #c1121f;
+            color: #fdf0d5;
+        }
+        #resultat1 {
+            background-color: #c1121f;
+        }
+    }
+
+    #joueur2 {
+        color: #003049;
+        border: 1px solid #003049;
+        button {
+            margin: 8px 0;
+            background-color: #fdf0d5;
+            border: 2px solid #003049;
+            border-radius: 10px;
+            color: #003049;
+            font-weight: bold;
+            padding: 4px 8px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+        }
+        button:hover {
+            background-color: #003049;
+            color: #fdf0d5;
+        }
+        #resultat2 {
+            background-color: #003049;
+        }
+    }
+}
